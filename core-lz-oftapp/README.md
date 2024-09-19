@@ -26,34 +26,7 @@ href="https://docs.layerzero.network/v2/developers/evm/technical-reference/dvn-a
 
 ## So what is an Omnichain Fungible Token?
 
-The Omnichain Fungible Token (OFT) Standard is an ERC20 token that can be transferred across multiple blockchains without asset wrapping or middlechains. 
-
----
-
-Some additional points for developers/builders to be aware of when deploying your LZ V2 OFT or working through troubleshooting:
-
-# Sending OFTs Cross Chain
-
-- run `npx hardhat lz:oft:send --contract-a <CONTRACT_A> --recipient-b <RECIPIENT_B> --network-a <NETWORK_A> --network-b <NETWORK_B> --amount <AMOUNT> --private-key <PRIVATE_KEY>` to use the Hardhat task from the index.ts file in the tasks directory - this ensures you are estimating the gas fees properly. This task is more efficient and reliable as it has added handling for gas price and nonce to avoid the "replacement transaction underpriced" error. It also includes private key as a parameter for the task to use the correct wallet for signing transactions.
-
-# In order: 
-
-- start with `npx create-lz-app-oapp@latest`
-- use pnpm as your package manager
-- run `pnpm install`
-- create your OFT contract to your requirements for your use case.
-- run `pnpm compile:hardhat`
-- run `npx hardhat lz:deploy`
-- run `pnpm install --save-dev @nomicfoundation/hardhat-verify`
-- run `npx hardhat verify --network arbitrum` (+ your constructor arguments: which should be the 1. name 2. symbol 3. LZ endpoint 4. delegate address
-- (complete the above task for each chain you deploy your OFT to.)
-- run `npx hardhat lz:oapp:wire --oapp-config layerzero.config.ts`
-- Make sure you have a Hardhat task created to send tokens cross-chain
-- run `npx hardhat lz:oft:send --contract-a <contract-a> --recipient-b <recipient-address-chain-b> --network-a <network> --network-b <network> --amount <amount>`
-
-The future is Omnichain!
-
----
+The Omnichain Fungible Token (OFT) Standard is an ERC20 token that can be transferred across multiple blockchains without asset wrapping or middlechains.
 
 <img alt="LayerZero" style="" src="https://docs.layerzero.network/assets/images/oft_mechanism_light-922b88c364b5156e26edc6def94069f1.jpg#gh-light-mode-only"/>
 
@@ -549,6 +522,7 @@ To set these config settings, run:
 ```bash
 npx hardhat lz:oapp:wire --oapp-config layerzero.config.ts
 ```
+
 <p align="center">
   Join our community on <a href="https://discord-layerzero.netlify.app/discord" style="color: #a77dff">Discord</a> | Follow us on <a href="https://twitter.com/LayerZero_Labs" style="color: #a77dff">Twitter</a>
 </p>

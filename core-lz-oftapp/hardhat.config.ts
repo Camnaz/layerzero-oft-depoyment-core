@@ -1,14 +1,16 @@
 // Get the environment configuration from .env file
+//
 // To make use of automatic environment setup:
 // - Duplicate .env.example file and name it .env
 // - Fill in the environment variables
 import 'dotenv/config'
-import './tasks'
+
 import 'hardhat-deploy'
 import 'hardhat-contract-sizer'
 import '@nomicfoundation/hardhat-verify'
 import '@nomiclabs/hardhat-ethers'
 import '@layerzerolabs/toolbox-hardhat'
+import './tasks/index.ts'
 import { HardhatUserConfig, HttpNetworkAccountsUserConfig } from 'hardhat/types'
 
 import { EndpointId } from '@layerzerolabs/lz-definitions'
@@ -47,26 +49,21 @@ const config: HardhatUserConfig = {
                         enabled: true,
                         runs: 200,
                     },
+                    evmVersion: 'paris', // Set EVM version to 'paris'
                 },
             },
         ],
     },
     networks: {
-        arbitrum: {
-            eid: EndpointId.ARBITRUM_V2_MAINNET,
-            url: process.env.RPC_URL_ARBITRUM || 'https://arbitrum.drpc.org',
+        'sepolia-testnet': {
+            eid: EndpointId.SEPOLIA_V2_TESTNET,
+            url: 'https://rpc.sepolia.org/',
             accounts,
         },
-        base: {
-            eid: EndpointId.BASE_V2_MAINNET,
-            url: process.env.RPC_URL_BASE || 'https://base.drpc.org',
+        'coredao-testnet': {
+            eid: EndpointId.COREDAO_V2_TESTNET,
+            url: 'https://rpc.test.btcs.network',
             accounts,
-        },
-    },
-    etherscan: {
-        apiKey: {
-            arbitrumOne: 'YOUR_API_KEY',
-            base: 'YOUR_API_KEY',
         },
     },
     namedAccounts: {
