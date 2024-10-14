@@ -12,6 +12,8 @@ By the end of this guide, you will be able to:
 
 This guide is suitable for both beginners and experienced developers. We will clearly mark success criteria to ensure you're on track.
 
+## Table of Contents
+
 #### [Introduction](#introduction)
 
 #### [Prerequisites](#prerequisites)
