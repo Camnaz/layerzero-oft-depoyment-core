@@ -74,13 +74,13 @@ Press **Enter** on your keyboard to proceed.
 
 1.2 select **pnpm (recommended)**
 
-1.3 Layerzero will then use pnpm to install recommended dependencies, press **Y** to proceed.
+1.3 Layerzero will then use pnpm to install recommended dependencies, press **enter/return** to proceed.
 
 <img width="1512" alt="CoreOft1 3" src="https://github.com/user-attachments/assets/af0c0adb-083d-426d-ac4f-dd2b3f220d36">
 
 1.4 I am now going to change into the directory using cd , and open Visual Studio Code from the current working directory using cd **core-layerzero-example/** and clicking enter
 
-Inside the new working directory, open Visual Studio code using `Code .`
+Inside the new working directory, open Visual Studio code using `code .`
 
 <img width="1512" alt="coreOft1 5" src="https://github.com/user-attachments/assets/b2eb6293-608d-4d85-a5b2-f5a1419a4c4f">
 
