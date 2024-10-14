@@ -235,7 +235,7 @@ Copy the **Base** Active Endpoint URL.
 
 After grabbing this, paste this after the **BASE_SEPOLIA_URL**= and save your `.env` file.
 
-Your `.env` file should now be populated with your Private Key and Metamask.
+Your `.env` file should now be populated with your **Private Key** and **Infura API Key**.
 
 Refer to these steps for adding **Base Sepolia** to your metamask: https://docs.base.org/docs/using-base/
 
