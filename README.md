@@ -578,6 +578,8 @@ It's a quick way to verify the success and details of your cross-chain transfer.
 
 6.5.2 When we check the MOFT token on the [Base Sepolia Explorer](https://sepolia.basescan.org/token/0xe07bfa9b56f162efde07b3b2f7df1d584be04c16), we can indeed verify that we are now at **100,200 Max Total Supply** confirming that we have successfully burned, and minted 200 MOFT tokens, “transferring” between Core Testnet, and Base Sepolia.
 
+<img width="1512" alt="coreOft6 5 2" src="https://github.com/user-attachments/assets/8b1f39cf-97e5-4636-aa35-bc28dce65d97">
+
 ## Conclusion
 
 By integrating LayerZero’s OFT on **Core Testnet** and **Mainnet**, we are opening new pathways for cross-chain interactions between Core and major networks. Currently, connections between **Core Mainnet** and the mainnets of **Ethereum, Optimism, Base, and Arbitrum** are fully operational. Likewise, **Core Testnet** is linked to the testnets of these networks, including **Sepolia**. This creates a seamless bridge between Core and other ecosystems, allowing for efficient token transfers and interactions across different chains.
