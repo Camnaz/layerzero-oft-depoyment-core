@@ -1,6 +1,6 @@
 # Complete Guide: Cross-Chain Token Transfers Using LayerZero's OFT V2 (Core Testnet to Base Sepolia Testnet)
 
-**Introduction**
+## Introduction
 
 This guide walks you through deploying and configuring an **OFT** (Omnichain Fungible Token) to facilitate cross-chain transfers of an ERC-20 token between **Core Testnet**, and **Base Sepolia Testnet** using **LayerZero's OFT V2 messaging protocol**. You'll learn how to set up your development environment with **Hardhat**, configure LayerZero endpoints, and execute cross-chain token transfers.
 
@@ -14,19 +14,31 @@ This guide is suitable for both beginners and experienced developers. We will cl
 
 ## Table of Contents
 
-1. Introduction
-2. Prerequisites
-3. Install Node.js, pnpm, and Hardhat
-4. Set Up Hardhat Project
-5. Configure Hardhat for Base Sepolia Testnet and Core Testnet
-6. Create the OFT Contract
-7. Write Deployment Scripts
-8. Deploy Contracts to Base Sepolia and Core Testnet
-9. Set Cross-Chain Peers and Libraries
-10. Execute Cross-Chain Transfers
-11. Conclusion
+#### [Introduction](#introduction)
 
-## 1. Prerequisites
+#### [Prerequisites](#prerequisites)
+
+#### [Guide Start](#guide-start)
+
+  1. [Install Node.js, pnpm, and Hardhat](#1-install-nodejs-pnpm-and-hardhat)
+  
+  2. [Set Up Hardhat Project](#2-set-up-hardhat-project)
+  
+  3. [Configure Hardhat for Base Sepolia Testnet and Core Testnet](#3-configure-hardhat-for-base-sepolia-testnet-and-core-testnet)
+  
+  4. [Create the OFT Contract](#4-create-the-oft-contract)
+
+  5. [Write Deployment Scripts](#5-write-deployment-scripts)
+
+  6. [Deploy Contracts to Base Sepolia and Core Testnet](#6-deploy-contracts-to-base-sepolia-and-core-testnet)
+  
+  7. [Set Cross-Chain Peers and Libraries](#7-set-cross-chain-peers-and-libraries)
+
+  8. [Execute Cross-Chain Transfers](#8-execute-cross-chain-transfers)
+
+#### [Conclusion](#conclusion)
+
+## Prerequisites
 
 Before starting, make sure you have the following:
 
@@ -39,6 +51,8 @@ Before starting, make sure you have the following:
   - Core Testnet Funds: Required for deploying contracts on Core Testnet. You can get these from the [Core Faucet](https://scan.test.btcs.network/faucet).
 
 Ensure you have test tokens on both **Core Testnet** and **Base Sepolia Testnet** to complete the guide.
+
+## Guide Start
 
 1. Cd to the root of the working directory, I will be creating a directory on my Desktop for example purposes.
 
