@@ -369,7 +369,7 @@ If you paste this each contract address into either https://scan.test.btcs.netwo
 
 You can see your newly deployed contracts on their respective chains.
 
-6 Configuring Cross-Chain Pathways
+6 We must now configure **Cross-Chain Pathways**.
 
 Before transferring tokens between chains, it's essential to configure your LayerZero contracts for each unique pathway. Note that LayerZero contracts have distinct configurations for each direction (e.g., from Core Testnet to Base Sepolia has different properties than from Base Sepolia to Core Testnet).
 
