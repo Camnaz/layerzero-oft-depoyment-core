@@ -89,9 +89,9 @@ Inside the new working directory, open Visual Studio code using `Code .`
 Notice our currently set networks: **Sepolia Testnet (sepolia-testnet)**, **Avalanche Testnet (avalanche-testnet)**, and **Amoy Testnet (amoy-testnet)
 **
 
-For ‘**eid:**’, you can see the EndpointId is being retrieved from the corresponding name that is passed, that LayerZero has support for, found [here](https://docs.layerzero.network/v2/developers/evm/technical-reference/deployed-contracts).
+For `eid:`, you can see the EndpointId is being retrieved from the corresponding name that is passed, that LayerZero has support for, found [here](https://docs.layerzero.network/v2/developers/evm/technical-reference/deployed-contracts).
 
-For this guide, we will just be doing a token transfer between two networks, Core Testnet, and Base Sepolia Testnet. Reason being, tokens are free, and easily accessible on both networks to pay for gas fees, when deploying and transferring tokens.
+For this guide, we will just be doing a token transfer between two networks, **Core Testnet**, and **Base Sepolia Testnet**. Reason being, tokens are free, and easily accessible on both networks to pay for gas fees, when deploying and transferring tokens.
 
 For the ‘url’, you’re able to place one in the .env file, and call upon it here. We will be placing the hard coded value for our networks that LayerZero will automatically fall back on if there are no .env configurations.
 
