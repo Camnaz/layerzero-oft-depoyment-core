@@ -20,23 +20,24 @@ This guide is suitable for both beginners and experienced developers. We will cl
 
 #### [Guide Start](#guide-start)
 
-  1. [Install Node.js, pnpm, and Hardhat](#1-install-nodejs-pnpm-and-hardhat)
+  1. [Install Node.js, pnpm, and Hardhat](#install-nodejs-pnpm-and-hardhat)
   
-  2. [Set Up Hardhat Project](#2-set-up-hardhat-project)
+  2. [Set Up Hardhat Project](#set-up-hardhat-project)
   
-  3. [Configure Hardhat for Base Sepolia Testnet and Core Testnet](#3-configure-hardhat-for-base-sepolia-testnet-and-core-testnet)
+  3. [Configure Hardhat for Base Sepolia Testnet and Core Testnet](#configure-hardhat-for-base-sepolia-testnet-and-core-testnet)
   
-  4. [Create the OFT Contract](#4-create-the-oft-contract)
+  4. [Create the OFT Contract](#create-the-oft-contract)
 
-  5. [Write Deployment Scripts](#5-write-deployment-scripts)
+  5. [Write Deployment Scripts](#write-deployment-scripts)
 
-  6. [Deploy Contracts to Base Sepolia and Core Testnet](#6-deploy-contracts-to-base-sepolia-and-core-testnet)
+  6. [Deploy Contracts to Base Sepolia and Core Testnet](#deploy-contracts-to-base-sepolia-and-core-testnet)
   
-  7. [Set Cross-Chain Peers and Libraries](#7-set-cross-chain-peers-and-libraries)
+  7. [Set Cross-Chain Peers and Libraries](#set-cross-chain-peers-and-libraries)
 
-  8. [Execute Cross-Chain Transfers](#8-execute-cross-chain-transfers)
+  8. [Execute Cross-Chain Transfers](#execute-cross-chain-transfers)
 
 #### [Conclusion](#conclusion)
+
 
 ## Prerequisites
 
