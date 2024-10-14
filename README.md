@@ -582,7 +582,7 @@ It's a quick way to verify the success and details of your cross-chain transfer.
 
 ## Conclusion
 
-By integrating LayerZero’s OFT on **Core Testnet** and **Mainnet**, we are opening new pathways for cross-chain interactions between Core and major networks. Currently, connections between **Core Mainnet** and the mainnets of **Ethereum, Optimism, Base, and Arbitrum** are fully operational. Likewise, **Core Testnet** is linked to the testnets of these networks, including **Sepolia**. This creates a seamless bridge between Core and other ecosystems, allowing for efficient token transfers and interactions across different chains.
+By integrating LayerZero’s OFT on **Core Testnet** and **Mainnet**, we are opening new pathways for cross-chain interactions between Core and major networks. Currently, connections between **Core Mainnet** and the mainnets of **Ethereum, Optimism, Base, and Arbitrum** are fully operational. Likewise, **Core Testnet** is linked to the testnets of these networks, including **Sepolia**. This creates a connection between Core and other ecosystems, allowing for efficient token transfers and interactions across different chains.
 
 If you encounter any issues with endpoints or would like support for additional network pathways connecting to Core, we encourage you to submit a request. The LayerZero team must be manually informed to enable or troubleshoot new or existing connections.
 
