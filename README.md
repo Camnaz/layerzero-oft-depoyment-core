@@ -1,5 +1,7 @@
 # Complete Guide: Cross-Chain Token Transfers Using LayerZero's OFT V2 (Core Testnet to Base Sepolia Testnet)
 
+![Core LayerZero OFT](https://github.com/user-attachments/assets/ac7382c0-6825-4fb8-91c2-5e022a2eca66)
+
 ## Introduction
 
 This guide walks you through deploying and configuring an **OFT** (Omnichain Fungible Token) to facilitate cross-chain transfers of an ERC-20 token between **Core Testnet**, and **Base Sepolia Testnet** using **LayerZero's OFT V2 messaging protocol**. You'll learn how to set up your development environment with **Hardhat**, configure LayerZero endpoints, and execute cross-chain token transfers.
